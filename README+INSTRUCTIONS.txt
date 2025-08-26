@@ -5,9 +5,10 @@ The usage for this program is pretty complex and simple at the same time. There 
 
 1: Download pygame in the command terminal using "python3 -m pip install -U pygame --user" or "py -m pip install -U pygame --user". Further troubleshooting on the pygame website is sometimes necessary; this stuff can be troublesome.
 THEN in the code you have written:
-2: change the line "from vex import *" to be "from vexbrainsim02 import *" (or the numbers can be changed to use a different version.
-3: change any lines that have a function that runs a while loop to be a thread (ex: main() turns into RunMain = Thread(main))
-4: add the line at the VERY END of all of your code that says "initiateVexSimulator()"
+2: create or move your project into the same folder with all of the simulator files.
+3: change the line "from vex import *" to be "from vexbrainsim02 import *" (or the numbers can be changed to use a different version.
+4: change any lines that have a function that runs a while loop to be a thread (ex: main() turns into RunMain = Thread(main))
+5: add the line at the VERY END of all of your code that says "initiateVexSimulator()"
 
 Woohoo hopefully it's working! Now lets go through some of the features:
 There is controller support! The Logitech Gamepad F310 is supported, and from what I've seen, it's a very common controller. Other controllers could be connected, but they might produce errors, or unexpected results. Keep in mind the vex controller's A and B buttons, and X and Y buttons are switched.
