@@ -1,4 +1,4 @@
-# VexBrainSimulator
+VexBrainSimulator
 This is a program created to help students in the Vex Robotics program. It is a python package that can simulate the vex brain, controller, motors, pneumatics, and even bumpers! It runs off of pygame, and by editing three lines (usually) of your code, you can download it right onto your robot!
 
 The usage for this program is pretty complex and simple at the same time. There are just a couple of steps you need to go through to have your code ready to be simulated
